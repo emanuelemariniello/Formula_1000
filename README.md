@@ -3,4 +3,5 @@ The aim of this project is to design from scratch a Formula 1000 racing car usin
 
 # How to use
 
-Run the file Index.bat and follow the instructions on the CMD. In the report folder you can find a full detailed document on the project.
+Run the file Index.bat and follow the instructions on the CMD.
+A full detailed report on the project is in the following link: (https://github.com/emanuelemariniello/Formula_1000/blob/master/Report/Report.pdf).
