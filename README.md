@@ -8,5 +8,8 @@ A full detailed report on the project is in the following link: (https://github.
 
 # Overview
 
+### Gearbox Overview
 ![alt text](https://github.com/emanuelemariniello/Formula_1000/blob/master/Art/Gearbox.PNG "Gearbox Overview")
+
+### Open Differential Overview
 ![alt text](https://github.com/emanuelemariniello/Formula_1000/blob/master/Art/Open%20Differential.PNG "Open Differential Overview")
