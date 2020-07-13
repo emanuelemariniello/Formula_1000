@@ -4,7 +4,9 @@ The aim of this project is to design from scratch a Formula 1000 racing car usin
 # How to use
 
 A full detailed report on the project is in the following link: (https://github.com/emanuelemariniello/Formula_1000/blob/master/Report/Report.pdf).
+
 Python is needed to be installed in your machine.
+
 Download the project and run the file Index.bat and follow the instructions on the terminal to visualize the main design variables related to the different components.
 
 # Overview
