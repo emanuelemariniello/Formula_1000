@@ -1,7 +1,7 @@
 r = 330.2  # Rolling radius wheels
 mu = 1.5  # Coefficient of friction
-hm = 200  # Height centre of mass in mm
-L = 2000  # Wheelbase in mm
+hm = 325  # Height centre of mass in mm
+L = 3250  # Wheelbase in mm
 m = 490  # weight of the Formula 1000 in Kg
 W = m * 9.81  # weight of the Formula 1000 in N
 Wr = W * (L * 0.55) / L  # Static rear axle load in N (main part of the weight on the back)
