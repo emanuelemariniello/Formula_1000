@@ -1,130 +1,159 @@
 # Index Project
 
-import sys, os
+import os
+import sys
 
 sys.path.append(os.path.realpath('..'))
 
 
 def index():
     print("Welcome to the subsystem selector, select a number from 1 to 4")
-    print("1 = Trasmission\n2 = Suspensions\n3 = Braking\n4 = Exit")
+    print("1 = Transmission\n2 = Suspensions\n3 = Brakes\n4 = Exit")
 
-    Subsystem = int(input("Number: "))
+    subsystem = int(input("Number: "))
 
-    while Subsystem < 1 or Subsystem > 4:
+    while subsystem < 1 or subsystem > 4:
         print("Please insert a number from 1 to 4")
-        print("1 = Trasmission\n2 = Suspensions\n3 = Braking\n4 = Exit")
-        Subsystem = int(input("Number: "))
+        print("1 = Transmission\n2 = Suspensions\n3 = Brakes\n4 = Exit")
+        subsystem = int(input("Number: "))
 
-    if Subsystem == 1:
-        print("Select the Component")
-        print("1 = Gearbox\n2 = Differential")
-        Component = int(input("Number: "))
+    if subsystem == 1:
+        print("Welcome to Transmission, Select the Component")
+        print("1 = Gearbox\n2 = Differential\n3 = Previous Menu")
+        component = int(input("Number: "))
 
-        while Component < 1 or Component > 2:
-            print("Please insert a number from 1 to 2")
-            print("1 = Gearbox\n2 = Differential")
-            Component = int(input("Number: "))
+        while component < 1 or component > 3:
+            print("Please insert a number from 1 to 3")
+            print("1 = Gearbox\n2 = Differential\n3 = Previous Menu")
+            component = int(input("Number: "))
 
-        if Component == 1:
+        if component == 1:
             print("Select the topic")
             print("1 = Gear ratio\n2 = Bearings\n3 = Shafts\n4 = Keys")
-            Topic = int(input("Number: "))
+            topic = int(input("Number: "))
 
-            while Topic < 1 or Topic > 4:
+            while topic < 1 or topic > 4:
                 print("Please insert a number from 1 to 4")
                 print("1 = Gear ratio\n2 = Bearings\n3 = Shaft\n4 = Keys")
-                Topic = int(input("Number: "))
+                topic = int(input("Number: "))
 
-            if Topic == 1:
-                exec(open(".\Engine (Honda CBR1000RR)\Python\Trasmission.py").read())
+            if topic == 1:
+                exec(open(".\Engine (Honda CBR1000RR)\Python\Transmission.py").read())
                 print("Press a key to return to the main selection")
                 os.system("pause")
                 index()
 
-            if Topic == 2:
+            if topic == 2:
                 print("Select the subtopic")
                 print("1 = Layshaft\n2 = Mainshaft")
-                Subtopic = int(input("Number: "))
+                subtopic = int(input("Number: "))
 
-                while Subtopic < 1 or Subtopic > 2:
+                while subtopic < 1 or subtopic > 2:
                     print("Please insert a number from 1 to 2")
                     print("1 = Layshaft\n2 = Mainshaft")
-                    Subtopic = int(input("Number: "))
+                    subtopic = int(input("Number: "))
 
-                if Subtopic == 1:
-                    exec(open(".\Trasmission\Gearbox\Bearings\Python\Bearings_lay_shaft.py").read())
+                if subtopic == 1:
+                    exec(open(".\Transmission\Gearbox\Bearings\Python\Bearings_lay_shaft.py").read())
                     print("Press a key to return to the main selection")
                     os.system("pause")
                     index()
                 else:
-                    exec(open(".\Trasmission\Gearbox\Bearings\Python\Bearings_main_shaft.py").read())
+                    exec(open(".\Transmission\Gearbox\Bearings\Python\Bearings_main_shaft.py").read())
                     print("Press a key to return to the main selection")
                     os.system("pause")
                     index()
 
-            if Topic == 3:
+            if topic == 3:
                 print("Select the subtopic")
                 print("1 = Layshaft\n2 = Mainshaft")
-                Subtopic = int(input("Number: "))
+                subtopic = int(input("Number: "))
 
-                while Subtopic < 1 or Subtopic > 2:
+                while subtopic < 1 or subtopic > 2:
                     print("Please insert a number from 1 to 2")
                     print("1 = Layshaft\n2 = Mainshaft")
-                    Subtopic = int(input("Number: "))
+                    subtopic = int(input("Number: "))
 
-                if Subtopic == 1:
-                    exec(open(".\Trasmission\Gearbox\Shafts\Python\Lay_shaft\Lay_shaft.py").read())
+                if subtopic == 1:
+                    exec(open(".\Transmission\Gearbox\Shafts\Python\Lay_shaft\Lay_shaft.py").read())
                     print("Press a key to return to the main selection")
                     os.system("pause")
                     index()
                 else:
-                    exec(open(".\Trasmission\Gearbox\Shafts\Python\Main_shaft\Main_shaft.py").read())
+                    exec(open(".\Transmission\Gearbox\Shafts\Python\Main_shaft\Main_shaft.py").read())
                     print("Press a key to return to the main selection")
                     os.system("pause")
                     index()
 
-            if Topic == 4:
-                exec(open(".\Trasmission\Gearbox\Shafts\Python\Shaft key.py").read())
+            if topic == 4:
+                exec(open(".\Transmission\Gearbox\Shafts\Python\Shaft key.py").read())
                 print("Press a key to return to the main selection")
                 os.system("pause")
                 index()
 
-        if Component == 2:
+        if component == 2:
             print("Select the topic")
             print("1 = Bearings\n2 = Axle Shaft")
 
-            Topic = int(input("Number: "))
+            topic = int(input("Number: "))
 
-            while Subsystem < 1 or Subsystem > 2:
+            while subsystem < 1 or subsystem > 2:
                 print("Please insert a number from 1 to 2")
                 print("1 = Bearings\n2 = Axle Shaft")
-                Topic = int(input("Number: "))
+                topic = int(input("Number: "))
 
-            if Topic == 1:
-                exec(open(".\Trasmission\Open Differential\Python\Bearings.py").read())
+            if topic == 1:
+                exec(open(".\Transmission\Open Differential\Python\Bearings.py").read())
                 print("Press a key to return to the main selection")
                 os.system("pause")
                 index()
             else:
-                exec(open(".\Trasmission\Open Differential\Python\Axle_shaft.py").read())
+                exec(open(".\Transmission\Open Differential\Python\Axle_shaft.py").read())
                 print("Press a key to return to the main selection")
                 os.system("pause")
                 index()
 
-    if Subsystem == 2:
+        if component == 3:
+            index()
+
+    if subsystem == 2:
+        print("Welcome to Suspension, Select the Component")
+        print("1 = Load Case\n2 = Design\n3 = FEA\n4 = Previous Menu")
+        category = int(input("Number: "))
+
+        while category < 1 or category > 4:
+            print("Please insert a number from 1 to 3")
+            print("1 = Load Case\n2 = Design\n3 = FEA\n4 = Previous Menu")
+            category = int(input("Number: "))
+
+        if category == 1:
+            exec(open(".\Suspensions\Python\Load_Cases.py").read())
+            print("Press a key to return to the main selection")
+            os.system("pause")
+            index()
+
+        if category == 2:
+            exec(open(".\Suspensions\Python\Design.py").read())
+            print("Press a key to return to the main selection")
+            os.system("pause")
+            index()
+
+        if category == 3:
+            exec(open(".\Suspensions\Python\FEA.py").read())
+            print("Press a key to return to the main selection")
+            os.system("pause")
+            index()
+
+        if category == 4:
+            index()
+
+    if subsystem == 3:
         print("Work in progress")
         print("Press a key to return to the main selection")
         os.system("pause")
         index()
 
-    if Subsystem == 3:
-        print("Work in progress")
-        print("Press a key to return to the main selection")
-        os.system("pause")
-        index()
-
-    if Subsystem == 4:
+    if subsystem == 4:
         exit()
 
 

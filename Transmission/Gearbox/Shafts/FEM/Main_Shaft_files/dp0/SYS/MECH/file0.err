@@ -1,0 +1,43 @@
+/COM,ANSYS RELEASE 2020 R1           BUILD 20.1      UP20191203       14:39:39
+
+ *** WARNING ***                         CP =       0.672   TIME= 14:39:41
+ Element shape checking is currently inactive.  Issue SHPP,ON or         
+ SHPP,WARN to reactivate, if desired.                                    
+
+ *** WARNING ***                         CP =       0.828   TIME= 14:39:41
+ Material number 2 (used by element 19520) should normally have at least 
+ one MP or one TB type command associated with it.  Output of energy by  
+ material may not be available.                                          
+
+ *** WARNING ***                         CP =       1.125   TIME= 14:39:41
+ Overconstraint may occur for Lagrange multiplier or MPC based contact   
+ algorithm.                                                              
+
+ *** WARNING ***                         CP =       1.125   TIME= 14:39:41
+ Certain contact elements (for example 23377 & 21503) overlap with       
+ other.                                                                  
+
+ *** WARNING ***                         CP =       3.734   TIME= 14:39:45
+ Material number 2 (used by element 19520) should normally have at least 
+ one MP or one TB type command associated with it.  Output of energy by  
+ material may not be available.                                          
+
+ *** WARNING ***                         CP =       5.984   TIME= 14:39:48
+ Material number 2 (used by element 19520) should normally have at least 
+ one MP or one TB type command associated with it.  Output of energy by  
+ material may not be available.                                          
+
+ *** WARNING ***                         CP =       8.344   TIME= 14:39:50
+ Material number 2 (used by element 19520) should normally have at least 
+ one MP or one TB type command associated with it.  Output of energy by  
+ material may not be available.                                          
+
+ *** WARNING ***                         CP =      10.609   TIME= 14:39:52
+ Material number 2 (used by element 19520) should normally have at least 
+ one MP or one TB type command associated with it.  Output of energy by  
+ material may not be available.                                          
+
+ *** WARNING ***                         CP =      12.734   TIME= 14:39:55
+ Material number 2 (used by element 19520) should normally have at least 
+ one MP or one TB type command associated with it.  Output of energy by  
+ material may not be available.                                          
