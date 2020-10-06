@@ -19,7 +19,7 @@ Download the project and run the file Index.bat and follow the instructions on t
 ![alt text](https://github.com/emanuelemariniello/Formula_1000/blob/master/Art/Open%20Differential.PNG "Open Differential Overview")
 
 ### Transmission Overview
-![alt text](https://github.com/emanuelemariniello/Formula_1000/blob/master/Art/Trasmission.PNG "Transmission Overview")
+![alt text](https://github.com/emanuelemariniello/Formula_1000/blob/master/Art/Transmission.PNG "Transmission Overview")
 
 ### Suspension Overview
 ![alt text](https://github.com/emanuelemariniello/Formula_1000/blob/master/Art/Front_Suspension.png "Front Suspension Overview")
