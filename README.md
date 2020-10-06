@@ -13,7 +13,7 @@ Download the project and run the file Index.bat and follow the instructions on t
 
 ### Gearbox Overview
 ![alt text](https://github.com/emanuelemariniello/Formula_1000/blob/master/Art/Gearbox.PNG "Gearbox Overview")
-![Alt Text](https://github.com/emanuelemariniello/Formula_1000/blob/master/Trasmission/Assemblies/Gearbox.gif)
+![Alt Text](https://github.com/emanuelemariniello/Formula_1000/blob/master/Transmission/Assemblies/Gearbox.gif)
 
 ### Open Differential Overview
 ![alt text](https://github.com/emanuelemariniello/Formula_1000/blob/master/Art/Open%20Differential.PNG "Open Differential Overview")
@@ -21,6 +21,6 @@ Download the project and run the file Index.bat and follow the instructions on t
 ### Transmission Overview
 ![alt text](https://github.com/emanuelemariniello/Formula_1000/blob/master/Art/Transmission.png "Transmission Overview")
 
-### Suspension Overview
+### Suspensions Overview
 ![alt text](https://github.com/emanuelemariniello/Formula_1000/blob/master/Art/Front_Suspension.png "Front Suspension Overview")
 ![alt text](https://github.com/emanuelemariniello/Formula_1000/blob/master/Art/Rear_Suspension.png "Rear Suspension Overview")
